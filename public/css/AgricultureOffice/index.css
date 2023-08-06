@@ -1,0 +1,39 @@
+
+.marg{
+  margin-top: 2%;
+}
+
+.chat{
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.bg{
+  background-color: white;
+}
+.chart{
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  flex-grow: 1;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 780px) {
+ 
+  .chat{
+    margin-left:auto;
+    margin-right:auto;
+    height: 300px;
+    width:200px
+  }
+  .row-sm{
+    display: block;
+  }
+}
+
+
