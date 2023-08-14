@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               {/* Grid column */}
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  <a className="navbar-brand" href="#"><img src="../images/icons8-r-100.png" width="25%" alt="" />Farms</a>
+                  <a className="navbar-brand" href="#"><Image src="/images/icons8-r-100.png" width={40} height={40} alt="img icon" />Farms</a>
                 </h6>
                 <p>
                   We are here to provide you with the best agricultural products of all ranging from fruit, livestock, livestock feeds and fertilizer.
@@ -85,8 +86,8 @@ const Footer = () => {
               <div className="col-md-7 col-lg-8 text-center text-md-start">
                 {/* Copyright */}
                 <div className="p-3">
-                  © 2023 Copyright
-                  <a className="text-white" href="https://mdbootstrap.com/">U-farms</a>
+                  © 2023 Copyright:
+                  <a className="text-white" style={{listStyle:"none"} }href="/">U-farms</a>
                 </div>
                 {/* Copyright */}
               </div>
