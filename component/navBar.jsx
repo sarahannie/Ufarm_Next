@@ -37,7 +37,7 @@ const Navbar = () => {
                   <a className="nav-link active mt-2" aria-current="page" href="/cart"><FontAwesomeIcon style={{ fontSize: '20px', width:'40px' }}  icon={faCartShopping} /></a>
                 </li>
                 <li className="nav-item" >
-                  <a className="nav-link active" aria-current="page" href="/logout" ><Button name="Sign Out" size={"12px"} padding={"6px"} borderRadius={"13px"} /></a>
+                  <a className="nav-link active" aria-current="page" href="/logout" ><Button name="Sign Out" size={"12px"} padding={"6px"} borderRadius={"13px"} borderColor={"white"} /></a>
                 </li>
               </ul>
             </div>

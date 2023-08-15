@@ -3,6 +3,7 @@ import Navbar from '../component/navBar'
 import Footer from '../component/footer'
 import styles from './page.module.css'
 import Testimonal from '../component/testimonal'
+import GetStarted from '../component/getstarted'
 
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
 
       </div>
       <Testimonal />
+      <GetStarted />
       <Footer />
     </main>
   )
