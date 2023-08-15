@@ -4,6 +4,7 @@ import Footer from '../component/footer'
 import styles from './page.module.css'
 import Testimonal from '../component/testimonal'
 import GetStarted from '../component/getstarted'
+import Offer from '../component/offer'
 
 
 export default function Home() {
@@ -61,13 +62,10 @@ export default function Home() {
             </div>
           </div>
         </div>{/* What is new section end*/}
-        {/* How to get started start*/}
-        <div className="bg1">
-          <div className="new">How To Get Started</div>
-          <div><img className="img-starter" src="../images/2.png" width="75%" height="50%" alt="" /></div>
-        </div>{/* How to get started end*/}
+       
 
       </div>
+      <Offer />
       <Testimonal />
       <GetStarted />
       <Footer />
