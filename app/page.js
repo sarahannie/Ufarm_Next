@@ -5,6 +5,8 @@ import styles from './page.module.css'
 import Testimonal from '../component/testimonal'
 import GetStarted from '../component/getstarted'
 import Offer from '../component/offer'
+import Essential from '../component/essential'
+import Featured from '../component/featured'
 
 
 export default function Home() {
@@ -33,38 +35,9 @@ export default function Home() {
             </div>
           </div>
         </div>{/* Carousel section end*/}
-        {/* What is new section start*/}
-        <div className="bg">
-          <div className="new">What's New</div>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4 cards-new">
-                <div className="card" style={{width: '18rem'}}><img className="card-img-top" src="../images/airtelmoney.jpg" alt="Sunset Over the Sea" />
-                  <div className="card-body">
-                    <p className="card-text">Easy Payment With Airtime</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 cards-new">
-                <div className="card" style={{width: '18rem'}}><img className="card-img-top" src="../images/chat.jpg" alt="Sunset Over the Sea" />
-                  <div className="card-body">
-                    <p className="card-text">Chat Buyers and Sellers</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 cards-new">
-                <div className="card" style={{width: '18rem'}}><img className="card-img-top" src="../images/shopping.jpg" alt="Sunset Over the Sea" />
-                  <div className="card-body">
-                    <p className="card-text">Shopping Made Easier</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>{/* What is new section end*/}
-       
-
       </div>
+      <Featured />
+      <Essential />
       <Offer />
       <Testimonal />
       <GetStarted />
