@@ -7,6 +7,7 @@ import GetStarted from '../component/getstarted'
 import Offer from '../component/offer'
 import Essential from '../component/essential'
 import Featured from '../component/featured'
+import FeaturedBrand from '../component/featuredBrand'
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
           </div>
         </div>{/* Carousel section end*/}
       </div>
+      <FeaturedBrand />
       <Featured />
       <Essential />
       <Offer />

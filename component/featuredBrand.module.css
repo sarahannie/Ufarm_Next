@@ -1,0 +1,16 @@
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #10571b;
+    font-weight: 600;
+    padding-bottom: 27px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+}

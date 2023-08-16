@@ -2,11 +2,11 @@
     border-radius: 15px;
     padding-left: 0px;
     padding-right: 0px;
-    box-shadow: 0 15px 35px #10571b;
+    box-shadow: 10px 0px 10px -5px #10571b;
     overflow: hidden;
     backface-visibility: hidden;
-    border-top: 1px solid #10571b;
-    border-left: 1px solid #10571b;
+    /* border-top: 1px solid #10571b;
+    border-left: 1px solid #10571b; */
     border-bottom: 1px solid #10571b;
     margin-right: 35px;
     width: 220px;
