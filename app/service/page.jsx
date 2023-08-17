@@ -4,13 +4,11 @@ import CardService from '../../component/cardService';
 import Search from '../../component/search';
 const page = () => {
   return (
-    <div>
+    <div >
         <Navbar />
-             {/* Searchbar start */}
         <Search />
-        {/* Searchbar End */}
         {/* Card start */}
-        <div className="bg1">
+        <div className='mb-5'>
           <div className="container">
             <div className="row">
                 <CardService />
