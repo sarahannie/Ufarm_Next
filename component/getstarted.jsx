@@ -23,7 +23,8 @@ const GetStarted = () => {
 
   return (
     <div className='container text-center items-center'>
-        <div className='text-center front-face py-2 mb-5 tet'>
+    
+        <div className={`text-center front-face py-2 mb-5 ${style.tet}`}>
             <h1 className='py-3'> Get Started</h1>
             <h3 className=' pb-5'>The Exciting World of Over 1000+ Products Awaits You.</h3>
             <p className='my-5'>

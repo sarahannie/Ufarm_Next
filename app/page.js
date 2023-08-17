@@ -1,4 +1,4 @@
-
+"use client"
 import Navbar from '../component/navBar'
 import Footer from '../component/footer'
 import styles from './page.module.css'
@@ -9,10 +9,15 @@ import Essential from '../component/essential'
 import Featured from '../component/featured'
 import FeaturedBrand from '../component/featuredBrand'
 import Banner from '../component/header'
+import { useEffect, useState} from 'react';
+import axios from 'axios';
 
 
 
 export default function Home() {
+ 
+
+
   return (
     <main className={styles.main}>
       <Navbar />
@@ -21,7 +26,8 @@ export default function Home() {
       <Featured />
       <Essential />
       <Offer />
-      <Testimonal />
+      <Testimonal  />
+      <hr/>
       <GetStarted />
       <Footer />
     </main>

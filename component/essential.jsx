@@ -5,9 +5,6 @@ import  style from './essential.module.css';
 import Card from './card';
 
 
-
-
-
 const Essential = () => {
   return (
     <div className={'container ' + style.container}>

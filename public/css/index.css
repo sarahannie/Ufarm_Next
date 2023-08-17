@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -85,8 +85,7 @@ body{
   max-height: 500px;
 }
 a.btn{
-  
-  font-family: 'Volkhov', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .carousel-content  div{
@@ -110,14 +109,14 @@ a.btn{
 }
 .Buy{
   font-size: 30px;
-  font-family: 'Volkhov', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .started{
   font-size:20px;
-  font-family: 'Volkhov', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .btn{
-  font-family: 'Volkhov', serif;
+  font-family: 'Poppins', sans-serif;
   padding: 10px 37px;
   text-decoration: solid;
 }

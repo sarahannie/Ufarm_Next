@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image';
+import { faEnvelope, faHome, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -67,11 +68,11 @@ const Footer = () => {
               <hr className="w-100 clearfix d-md-none" />
               {/* Grid column */}
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                <p><i className="fas fa-home mr-3" /> Uganda, Ug 11,</p>
-                <p><i className="fas fa-envelope mr-3" /> u-farms@gmail.com</p>
-                <p><i className="fas fa-phone mr-3" /> +255 234 567 88</p>
-                <p><i className="fas fa-print mr-3" />+255 234 567 88</p>
+                <h6 className="text-uppercase mb-4 font-weight-bold mr-5">Contact</h6>
+                <p><FontAwesomeIcon style={{ fontSize: '15px', width:'40px' }}  icon={faHome} /> Uganda, Ug 11,</p>
+                <p><FontAwesomeIcon style={{ fontSize: '15px', width:'40px' }}  icon={faEnvelope} /> u-farms@gmail.com</p>
+                <p><FontAwesomeIcon style={{ fontSize: '15px', width:'40px' }}  icon={faPhone} /> +255 234 567 88</p>
+                <p><FontAwesomeIcon style={{ fontSize: '15px', width:'40px' }}  icon={faPrint} />+255 234 567 88</p>
               </div>
               {/* Grid column */}
             </div>

@@ -2,14 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Reseting */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
-body {
+
+.bodyClass {
     background: linear-gradient(to bottom, #fff, #fff);
     animation: background-color 20s;
     min-height: 100vh;
@@ -39,7 +34,7 @@ body {
     margin-bottom: 150px;
 }
 
-.container .col-lg-4 {
+.container .colLg4 {
     display: flex;
     justify-content: center;
 }
@@ -59,7 +54,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    box-shadow: 0 15px 35px #10571b;
+    box-shadow: 0 15px 35px #aecdb3;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.06);
     transform-style: preserve-3d;
@@ -71,8 +66,8 @@ body {
 border-bottom: 1px solid #999; */
 }
 
-.card .face.front-face,
-.card .face.back-face {
+.card .face.frontFace,
+.card .face.backFace {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -80,28 +75,28 @@ border-bottom: 1px solid #999; */
     justify-content: center;
 }
 
-.card .face.front-face .profile {
+.card .face.frontFace .profile {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.card .face.front-face .name {
+.card .face.frontFace .name {
     letter-spacing: 2px;
 }
 
-.card .face.front-face .designation {
+.card .face.frontFace .designation {
     font-size: 0.8rem;
     color: #10571b;
     letter-spacing: 0.8px;
 }
 
-.card:hover .face.front-face {
+.card:hover .face.frontFace {
     transform: rotateY(180deg);
 }
 
-.card .face.back-face {
+.card .face.backFace {
     position: absolute;
     background: rgba(255, 255, 255, 0.06);
     transform: rotateY(180deg);
@@ -110,26 +105,26 @@ border-bottom: 1px solid #999; */
     user-select: none;
 }
 
-.card .face.back-face .fa-quote-left {
+.card .face.backFace .faQuoteLeft {
     position: absolute;
     top: 25px;
     left: 25px;
     font-size: 1.2rem;
 }
 
-.card .face.back-face .fa-quote-right {
+.card .face.backFace .faQuoteRight {
     position: absolute;
     bottom: 35px;
     right: 25px;
     font-size: 1.2rem;
 }
 
-.card:hover .face.back-face {
+.card:hover .face.backFace {
     transform: rotateY(360deg);
 }
 
 @media(max-width: 991.5px) {
-    .col-lg-4 {
+    .colLg4 {
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -137,4 +132,6 @@ border-bottom: 1px solid #999; */
 
 .tet{
     color: #10571b;
+    font-family: 'Poppins', sans-serif;
+
 }
