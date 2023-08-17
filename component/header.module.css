@@ -1,0 +1,22 @@
+.container{
+    background-image: url('/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 1px;
+    border-radius: 25px;
+}
+
+.banner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img{
+    border-radius: 15px;
+}
+
+.header{
+    object-fit: cover;
+}
+
