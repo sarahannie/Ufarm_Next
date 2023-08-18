@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../public/css/payment.css';
+import '../../../public/css/payment.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faCalendarAlt, faClose, faCommentAlt, faDollarSign, faFileAlt, faPlus, faUser } from '@fortawesome/free-solid-svg-icons';
+import {  faCalendarAlt, faClose, faCommentAlt, faDollarSign, faFileAlt, faPlus, faUser } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 const page = () => {
@@ -51,17 +51,18 @@ const page = () => {
       </div>
       <ul className="nav nav-tabs mb-3 px-md-4 px-2">
         <li className="nav-item">
-          <a className="nav-link px-2 active" aria-current="page" href="/payment">Credit Card</a>
+          <a className="nav-link px-2 " aria-current="page" href="/payment">Credit Card</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link px-2" href="/payment/mobile">Mobile Money</a>
+          <a className="nav-link px-2 active"  href="/payment/mobile">Mobile Money</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link px-2" href="/payment/bank">Bank Transfer</a>
+          <a className="nav-link px-2 " href="/payment/bank">Bank Transfer</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link px-2" href="/payment/paystack">PayStack</a>
+          <a className="nav-link px-2" href="#">PayStack</a>
         </li>
+        
       </ul>
       <div className="px-md-5 px-4 mb-4 d-flex align-items-center">
         <div className="btn btn-success me-4">
@@ -78,30 +79,24 @@ const page = () => {
         <div className="row">
           <div className="col-12">
             <div className="d-flex flex-column px-md-5 px-4 mb-4">
-              <span>Credit Card</span>
+              <span>Bank Name</span>
               <div className="inputWithIcon">
-                <input className="form-control" type="text" defaultValue="5136 1845 5468 3894" />
+                <input className="form-control" type="text" defaultValue="MOMO" readOnly />
                 <span className>
                   <Image src="https://www.freepnglogos.com/uploads/mastercard-png/mastercard-logo-logok-15.png" width={40} height={40} alt="master_card" /></span>
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="d-flex flex-column ps-md-5 px-md-0 px-4 mb-4">
-              <span>Expiration<span className="ps-1">Date</span></span>
+          <div className="col-md-12 d-flex ">
+            <div className="d-flex flex-column px-md-5  px-4 mb-4">
+              <span>Account Number</span>
               <div className="inputWithIcon">
-                <input type="text" className="form-control" defaultValue="05/20" />
+                <input type="text" className="form-control" defaultValue="000984567" readOnly/>
                 <span className="fas fa-calendar-alt" />
               </div>
             </div>
-          </div>
-          <div className="col-md-6">
-            <div className="d-flex flex-column pe-md-5 px-md-0 px-4 mb-4">
-              <span>Code CVV</span>
-              <div className="inputWithIcon">
-                <input type="password" className="form-control" defaultValue={123} />
-                <span className="fas fa-lock" />
-              </div>
+            <div>
+                <FontAwesomeIcon  style={{ fontSize: '15px', marginTop:'10px' }}  icon={faCalendarAlt} />
             </div>
           </div>
           <div className="col-12">

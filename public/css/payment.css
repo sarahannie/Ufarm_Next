@@ -208,3 +208,14 @@ form .btn.btn-primary:hover {
         font-size: 12px
     }
 }
+
+@media (max-width: 767px) {                  
+    .content-to-hide {
+       display: none;
+    }
+ }
+
+ .close{
+    list-style: none;
+    color:#10571b
+ }

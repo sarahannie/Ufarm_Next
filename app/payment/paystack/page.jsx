@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../public/css/payment.css';
+import '../../../public/css/payment.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faCalendarAlt, faClose, faCommentAlt, faDollarSign, faFileAlt, faPlus, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt, faClose, faCommentAlt, faDollarSign, faFileAlt, faLock, faPlus, faUser } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 const page = () => {
@@ -51,7 +51,7 @@ const page = () => {
       </div>
       <ul className="nav nav-tabs mb-3 px-md-4 px-2">
         <li className="nav-item">
-          <a className="nav-link px-2 active" aria-current="page" href="/payment">Credit Card</a>
+          <a className="nav-link px-2 " aria-current="page" href="/payment">Credit Card</a>
         </li>
         <li className="nav-item">
           <a className="nav-link px-2" href="/payment/mobile">Mobile Money</a>
@@ -60,7 +60,7 @@ const page = () => {
           <a className="nav-link px-2" href="/payment/bank">Bank Transfer</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link px-2" href="/payment/paystack">PayStack</a>
+          <a className="nav-link px-2 active" href="/payment/paystack">PayStack</a>
         </li>
       </ul>
       <div className="px-md-5 px-4 mb-4 d-flex align-items-center">
@@ -89,18 +89,18 @@ const page = () => {
           <div className="col-md-6">
             <div className="d-flex flex-column ps-md-5 px-md-0 px-4 mb-4">
               <span>Expiration<span className="ps-1">Date</span></span>
-              <div className="inputWithIcon">
+              <div className="inputWithIcon d-flex">
                 <input type="text" className="form-control" defaultValue="05/20" />
-                <span className="fas fa-calendar-alt" />
+                <FontAwesomeIcon className='fas'  style={{ fontSize: '15px', marginTop:'10px' }}  icon={faCalendarAlt} />
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="d-flex flex-column pe-md-5 px-md-0 px-4 mb-4">
               <span>Code CVV</span>
-              <div className="inputWithIcon">
+              <div className="inputWithIcon d-flex">
                 <input type="password" className="form-control" defaultValue={123} />
-                <span className="fas fa-lock" />
+                <FontAwesomeIcon className='fas'  style={{ fontSize: '15px', marginTop:'10px' }}  icon={faLock} />
               </div>
             </div>
           </div>

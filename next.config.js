@@ -5,7 +5,7 @@ const nextConfig = {
         return config;
       },
       images: {
-        domains: ['images.unsplash.com', 'www.canva.com'],
+        domains: ['images.unsplash.com', "www.freepnglogos.com"],
       }
 }
 

@@ -50,7 +50,7 @@ const page = () => {
                 <div className="col">TOTAL PRICE</div>
                 <div className="col text-right">$ 12.00</div>
               </div>
-              <button className="btn"> <a href="../page/payment.html" className="btn-style">CHECKOUT</a> </button>
+              <button className="btn"> <a href="/payment" className="btn-style">CHECKOUT</a> </button>
             </div>
           </div>
         </div>
