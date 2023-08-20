@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": "/images/African Yam.jpg",
+        "name": "Sweet Yam",
+        "price": "$10.00",
+        "testimonal":" I made back the purchase price in just 48 hours! Thank you for making it pain less,pleasant. The service was execellent. I will refer everyone I know."
+    },
+    {
+        "id": 2,
+        "img": "/images/mangos.jpg",
+        "name": "mangos",
+        "price": "$30.00",
+        "testimonal":"Really good, you have saved our business! I made bacck the purchase price in just 48 hours!man, this thing is getting better and better as I learn more about it."
+    },
+
+    {
+        "id": 3,
+        "img": "/images/grape southafrica.jpg",
+        "name": "pigeon pea",
+        "price": "$20.00",
+        "testimonal":"Account keeper is the most valuable business research we have EVER purchased. Without your electrician, we would ahave gone bankrupt by now."
+    },
+
+    {
+        "id": 4,
+        "img": "/images/African Maize.jpg",
+        "name": "Maize",
+        "price": "$20.00",
+        "testimonal":"Account keeper is the most valuable business research we have EVER purchased. Without your electrician, we would ahave gone bankrupt by now."
+    }
+]
