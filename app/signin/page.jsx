@@ -1,5 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../../public/css/sigin.css';
+import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 
 const page = () => {
     return (
@@ -11,14 +13,14 @@ const page = () => {
               <form id="regform" action="#" name="register" onsubmit="return validation()" method="POST">
                 <div className="form-group input-group">
                   <div className="input-group-prepend">
-                    <span className="input-group-text"> <i className="fa fa-envelope" /> </span>
+                    <span className="input-group-text">  <FontAwesomeIcon style={{ fontSize: '20px',  color: 'none', border: 'none' }}  icon={faEnvelope} /></span>
                   </div>
                   <input name className="form-control" placeholder="Email address" type="email" id="email" />
                   <small id="emailErr" />
                 </div> 
                 <div className="form-group input-group">
                   <div className="input-group-prepend">
-                    <span className="input-group-text"> <i className="fa fa-lock" /> </span>
+                    <span className="input-group-text"><FontAwesomeIcon style={{ fontSize: '20px',  color: 'none', border: 'none' }}  icon={faLock} /> </span>
                   </div>
                   <input className="form-control" placeholder="Create password" type="password" id="password" />
                   <small id="passwordErr" />
