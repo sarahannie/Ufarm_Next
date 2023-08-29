@@ -8,37 +8,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
 }
 
 .bg2{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     width: fit-content;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 18px;
     display: block;
     justify-content: center;
     background-color: white;
+    margin-top: 40px;
 }
 
-.input{
-  margin-bottom: 30px;
-  margin-top: 10px;
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
 }
 
-  .btnColor{
-    background-color:#10571b;
-    color: white;
-  }
 
-  .btnColor:hover{
-    background-color: #7cab83;
-  }
-
-  .btn{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,23 +65,29 @@
     color: #7cab83;
   }
 
-  input.formControl:focus {
-    outline: none !important;
-    border: none; 
-    box-shadow: none; 
-  } 
+  .btnColor{
+    background-color:#10571b;
+    color: white;
+  }
+
+  .btnColor:hover{
+    background-color: #7cab83;
+  }
+
+  .input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 
 
 
-  
-@media only screen and (max-width: 800px) {
+
+  @media only screen and (max-width: 800px) {
     .body {
         height: 100vh;
       }
       .bg2{
-        padding-left: 40px;
-        padding-right: 40px;
-        /* padding-top: 30px; */
-        padding-bottom: 10px;
-    }  
+        
+        margin-top: 0px;
+    }
 }

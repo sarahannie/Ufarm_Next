@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import '../../public/css/sigin.css';
 import style from './page.module.css';
 import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 
