@@ -9,8 +9,8 @@ const page = () => {
               <div className="card">
                 <div className="signup">SignUp</div>
                 <div className="card-body bdy ">
-                  <button className="bg1 bt"><a href="../page/signup-farmer.html" className="label">Farmers</a></button>
-                  <button className="bg1 bt1"><a href="../page/signup-consumer.html" className="label">Consumer</a></button>
+                  <button className="bg1 bt"><a href="/signup/farmer" className="label">Farmers</a></button>
+                  <button className="bg1 bt1"><a href="/signup/consumer" className="label">Consumer</a></button>
                 </div>
                 <div className="account"> Already have an Acount?<a href="../page/login.html" className="login">Log In</a></div>
               </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../public/css/signup-consumer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import style from './page.module.css';
 import { faEnvelope, faLock, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
