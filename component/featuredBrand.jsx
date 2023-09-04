@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './featuredBrand.module.css';
-import CardBrand from './cardBrand';
+import CardBrand from './microComponent/cardBrand';
 
 
 const FeaturedBrand = () => {

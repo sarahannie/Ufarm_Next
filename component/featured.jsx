@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Card from './card';
+import Card from './microComponent/card';
 import style from './featured.module.css'
 
 const Featured = () => {

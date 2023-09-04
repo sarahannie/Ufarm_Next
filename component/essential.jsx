@@ -2,7 +2,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import  style from './essential.module.css';
-import Card from './card';
+import Card from './microComponent/card';
 
 
 const Essential = () => {

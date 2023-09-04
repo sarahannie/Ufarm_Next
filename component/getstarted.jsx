@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import Button from './button';
+import Button from './microComponent/button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import style from './getStarted.module.css';

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faBars, faCartShopping, faCancel, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
-import Button from './button'
+import Button from './microComponent/button'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

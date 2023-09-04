@@ -1,7 +1,7 @@
 "use client"
 import Navbar from './navBar';
 import Footer from './footer';
-import CardService from './cardService';
+import CardService from '../component/microComponent/cardService';
 import Search from './search';
 import React, { useState, useEffect } from 'react';
 
