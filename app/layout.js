@@ -1,13 +1,12 @@
-"use client"
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import { Inter } from 'next/font/google';
-import { useEffect } from 'react';
 import Navbar from '../component/navBar'
-import Footer from '../component/footer'
+import Footer from '../component/footer';
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,14 +17,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-  useEffect(()=>{
-    import("bootstrap/dist/js/bootstrap");
-  },[])
+
 
   return (
     <html lang="en">
       <body className={inter.className}>
         {children}
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"/>
       </body>
     </html>
   )
