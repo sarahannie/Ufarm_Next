@@ -7,7 +7,7 @@ import Card from './microComponent/card';
 
 const Essential = () => {
   return (
-    <div className={'container ' + style.container}>
+    <div className={`  ${style.container}`}>
       <h1 className={`${style.header}`}>Essential Products</h1>
       <Carousel>
         <Carousel.Item>

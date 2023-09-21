@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../public/css/cart.css';
-import CardCart from '../../component/cardCart'
+import CardCart from '../../component/microComponent/cardCart'
 // import style from './page.module.css'
 
 const page = () => {
