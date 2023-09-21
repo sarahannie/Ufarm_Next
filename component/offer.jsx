@@ -28,7 +28,7 @@ const Offer = () => {
             <h4 className={` ${style.txt2}`}>Cancellation after 1 day</h4>
           </div>
         </div>
-        <div className={` d-flex `}>
+        <div className={`  ${style.offer}`}>
           <div className={`px-4`}>
             <a className={style.icon} role="button"><FontAwesomeIcon style={{fontSize:'30px'}} icon={faLock} /></a>
           </div>
@@ -37,7 +37,7 @@ const Offer = () => {
             <h4 className={` ${style.txt2}`}>Guaranteed secure payments</h4>
           </div>
         </div>
-        <div className={` d-flex `}>
+        <div className={`  ${style.offer}`}>
           <div className={`px-4`}>
             <a className={style.icon} role="button"><FontAwesomeIcon style={{fontSize:'30px'}} icon={faHeadset} /></a>
           </div>
@@ -46,11 +46,11 @@ const Offer = () => {
             <h4 className={` ${style.txt2}`}>Anywhere & anytime</h4>
           </div>
         </div>
-        <div className={` d-flex `}>
+        <div className={`  ${style.offer}`}>
           <div className={`px-4`}>
             <a className={style.icon} role="button"><FontAwesomeIcon style={{fontSize:'30px'}} icon={faTags} /></a>
           </div>
-          <div>
+          <div >
             <h3 className={` ${style.txt}`}>Daily Offers</h3>
             <h4 className={` ${style.txt2}`}>Discount up to 70% OFF</h4>
           </div>

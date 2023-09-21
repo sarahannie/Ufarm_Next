@@ -16,10 +16,8 @@ import axios from 'axios';
 
 export default function Home() {
  
-
-
   return (
-    <main className={styles.main}>
+    <>
       <Navbar />
       <Banner />
       <FeaturedBrand />
@@ -30,6 +28,6 @@ export default function Home() {
       <hr/>
       <GetStarted />
       <Footer />
-    </main>
+    </>
   )
 }

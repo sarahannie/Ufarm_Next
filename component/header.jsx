@@ -19,7 +19,7 @@ const Banner = () => {
                 </Carousel.Item>
             </Carousel>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className={`col-lg-3 col-md-4 col-sm-6 ${style.ban} `}>
             <Carousel controls={false}>
                 <Carousel.Item>
                 <Image width={300} height={500} src="/images/banner4.png" className={[style.img, style.header]} alt='banner_logo' />
